@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.first-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+}
+.Sedans {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    height: 65vh;
+    width: 35%;
+    padding: 1rem;
+}
+.Sedans h3 {
+    margin-top: 20px;  
+    margin-bottom: 10px;
+}
+.Sedans p {
+    line-height: 1.4;
+}
+.Suvs {
+    background: hsl(184, 100%, 22%);
+    color: white;
+    height: 65vh;
+    width: 35%;
+    padding: 1rem;
+}
+.Suvs h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Suvs p {
+    line-height: 1.4;
+}
+.Luxury {
+    background: hsl(179, 100%, 13%);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 65vh;
+    width: 35%;
+    padding: 1rem;
+}
+.Luxury h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Luxury p {
+    line-height: 1.4;
+}
+
+.button button {
+    cursor: pointer;
+    background: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: black;
+    margin-top: 4rem;
+    width: 65%;
+    padding: 0.7rem;
+}
+button:hover{
+    background: transparent;
+    color: white;
+}
